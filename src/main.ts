@@ -18,7 +18,7 @@ WA.onInit().then(() => {
 		
           fcPopup = WA.ui.openPopup(
               "fcPopup",
-              "高溫危險，請勿徒手接觸！\n操作時請戴防護手套與護目鏡。",
+              "\u9ad8\u6eab\u5371\u96aa\uff0c\u8acb\u52ff\u5f92\u624b\u63a5\u89f8\uff01\n\u64cd\u4f5c\u6642\u8acb\u6234\u9632\u8b77\u624b\u5957\u8207\u8b77\u76ee\u93e1\u3002",
               [{ label: "OK", callback: () => { } }]
           );
 
