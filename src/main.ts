@@ -13,17 +13,10 @@ WA.onInit().then(() => {
     console.info('Scripting API ready');
     console.info('Player tags: ',WA.player.tags)
 
-    WA.room.area.onEnter('clock').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
-    })
-
-    WA.room.area.onLeave('clock').subscribe(closePopup)
 
 	  WA.room.area.onEnter('fc01').subscribe(() => {
 		
-          fcPopup = WA.ui.openPopup("fcPopup", "I's a machine u know that...", []);
+          fcPopup = WA.ui.openPopup("fcPopup", "高溫危險，請勿徒手接觸！/n操作時請戴防護手套與護目鏡。", []);
 
 	  });
 
