@@ -16,7 +16,12 @@ WA.onInit().then(() => {
 
 	  WA.room.area.onEnter('fc01').subscribe(() => {
 		
-          fcPopup = WA.ui.openPopup("fcPopup", "高溫危險，請勿徒手接觸！/n操作時請戴防護手套與護目鏡。", []);
+          fcPopup = WA.ui.openPopup(
+              "fcPopup",
+              "高溫危險，請勿徒手接觸！\n操作時請戴防護手套與護目鏡。",
+              [{ label: "OK", callback: () => { } }]
+          );
+
 
 	  });
 
