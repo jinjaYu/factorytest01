@@ -232,7 +232,7 @@
                     0, 0, 1648, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2147483795, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62, 63, 64, 62, 63, 64, 62, 63, 64, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0,
@@ -330,7 +330,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/document\/d\/e\/2PACX-1vTyALydgAYLPhpkQ8k5ksVIizvk2sX0bhKKS-AZF46UNqLQsZeGovEntwzPySGm7GYJTuGXl4MwmKG0\/pub"
+                         "value":"https:\/\/hackmd.io\/_uploads\/rkyZgFKDGe.jpg"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -375,7 +375,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/hackmd.io\/_uploads\/rkyZgFKDGe.jpg"
+                         "value":"https:\/\/docs.google.com\/document\/d\/e\/2PACX-1vTyALydgAYLPhpkQ8k5ksVIizvk2sX0bhKKS-AZF46UNqLQsZeGovEntwzPySGm7GYJTuGXl4MwmKG0\/pub"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
