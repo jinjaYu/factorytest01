@@ -30,7 +30,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('fc01').subscribe(closePopup02)
 
     WA.room.area.onEnter('demo01').subscribe(() => {
-        currentPopup = WA.ui.openPopup("demoPopup", "It's a demoBoard " + time, []);
+        currentPopup = WA.ui.openPopup("demoPopup", "It's a demoBoard ", []);
     })
 
     WA.room.area.onLeave('demo01').subscribe(closePopup)
