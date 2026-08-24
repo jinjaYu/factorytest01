@@ -5,6 +5,8 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.info('Script started successfully');
 
 let currentPopup: any = undefined;
+let fcPopup: any = undefined;
+
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -19,6 +21,15 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
+	  WA.room.area.onEnter('fc01').subscribe(() => {
+		
+          fcPopup = WA.ui.openPopup("fcPopup", "I's a machine u know that...", []);
+
+	  });
+
+    WA.room.area.onLeave('fc01').subscribe(closePopup02)
+
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.info('Scripting API Extra ready');
@@ -30,6 +41,13 @@ function closePopup(){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;
+    }
+}
+
+function closePopup02() {
+    if (fcPopup !== undefined) {
+        fcPopup.close();
+        fcPopup = undefined;
     }
 }
 
